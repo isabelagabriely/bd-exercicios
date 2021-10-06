@@ -147,7 +147,7 @@ end;
 
 -- 7. Criar uma função que deverá receber um valor correspondente à temperatura em graus Fahrenheit e retornar o equivalente em graus Celsius. Fórmula para conversão: C = (F ‐32) / 1.8
 
-create or replace function converter_celsius(fahrenheit number)
+create function converter_celsius(fahrenheit number)
     return number
     is celsius number;
     
